@@ -9,12 +9,27 @@
 <body>
     
     <h1>im the test site</h1>
-    <h3></h3>
+    <h2>my user_agent</h3>
+        <span></span>
+
+    <h3>other visitors:</h3>
+        <div></div>
 
 
     <script>
-        let element = document.querySelector('h3')
-        element.textContent =  window.navigator.userAgent
+        let myEl = document.querySelector('span')
+        let myUA= "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+        myEl.textContent = myUA
+        
+        let element = document.querySelector('div')
+        if (window.navigator.userAgent == myUA){
+            element.textContent = "matching"
+        } else {
+            element.textContent = window.navigator.userAgent
+        }
+
+
     </script>
 </body>
 </html>
