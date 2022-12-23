@@ -1,14 +1,14 @@
 body {
  background-image: url("finalized_Emma_invite.png");
-background-size: cover;
-    background-repeat: no-repeat;
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 
 button {
     font-weight: bolder;
     font-size: 120px;
     text-align: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 .error-message {
