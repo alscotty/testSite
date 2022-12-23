@@ -8,7 +8,7 @@ button {
     font-weight: bolder;
     font-size: 120px;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 .error-message {
