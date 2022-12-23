@@ -1,0 +1,31 @@
+body {
+ background-image: url("finalized_Emma_invite.png");
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button {
+    font-weight: bolder;
+    font-size: 120px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+.error-message {
+    animation: fadeOut 10s forwards;
+    animation-delay: 0.5s;
+    background: lightblue;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

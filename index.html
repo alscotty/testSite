@@ -4,56 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gift</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h1>im the test site</h1>
-    <h2>my user_agent</h3>
-        <span></span>
 
-    <h3>other visitors:</h3>
-        <div></div>
+<button> Tap to Unwrap!! </button>
 
 
-        <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyBQzjUgBcQXi--sGeyuv2Yps9j4WB2eYaU",
-    authDomain: "twst-7b807.firebaseapp.com",
-    projectId: "twst-7b807",
-    storageBucket: "twst-7b807.appspot.com",
-    messagingSenderId: "55382448002",
-    appId: "1:55382448002:web:079e51c1675f8ec912a19b",
-    measurementId: "G-34NYD1PYBX"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
-
-    <script>
-        let myEl = document.querySelector('span')
-        let myUA= "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
-
-        myEl.textContent = myUA
-        
-        let element = document.querySelector('div')
-        if (window.navigator.userAgent == myUA){
-            element.textContent = "matching"
-        } else {
-            element.textContent = window.navigator.userAgent
-        }
-
-
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
