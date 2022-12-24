@@ -1,12 +1,17 @@
 body {
-background: url("finalized_Emma_invite.png") no-repeat center center fixed black;
+    background: url("finalized_Emma_invite.png") no-repeat center center fixed black;
     -webkit-background-size: no-repeat center center fixed black;
     -moz-background-size: no-repeat center center fixed black;
     -o-background-size: no-repeat center center fixed black;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
     background-attachment: fixed;
+    -webkit-overflow-y: hidden;
+    -moz-overflow-y: hidden;
+    -o-overflow-y: hidden;
     overflow-y: hidden;
     /* background-size: cover; */
-/* comment */
  /* background-image: url("finalized_Emma_invite.png"); */
  /* background-size: cover;
   */
