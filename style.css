@@ -1,6 +1,12 @@
 body {
-    background: url("finalized_Emma_invite.png") no-repeat center center fixed black;
-    -webkit-background-size: no-repeat center center fixed black;
+  background: url('finalized_Emma_invite.png') black;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: fixed;
+
+    /* background: url("finalized_Emma_invite.png") no-repeat black; */
+    /* position: fixed */
+    /* -webkit-background-size: no-repeat center center fixed black;
     -moz-background-size: no-repeat center center fixed black;
     -o-background-size: no-repeat center center fixed black;
     -webkit-background-attachment: fixed;
@@ -10,7 +16,7 @@ body {
     -webkit-overflow-y: hidden;
     -moz-overflow-y: hidden;
     -o-overflow-y: hidden;
-    overflow-y: hidden;
+    overflow-y: hidden; */
     /* background-size: cover; */
  /* background-image: url("finalized_Emma_invite.png"); */
  /* background-size: cover;
@@ -23,7 +29,7 @@ button {
     font-weight: bolder;
     font-size: 120px;
     text-align: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 .error-message {
